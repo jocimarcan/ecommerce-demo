@@ -2,6 +2,9 @@
 // customising the .env file in your project's root folder.
 require('dotenv').config();
 
+//adicionado
+var port = process.env.PORT || 3000;
+
 // Require keystone
 var keystone = require('keystone');
 var handlebars = require('express-handlebars');
